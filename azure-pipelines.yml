@@ -16,5 +16,5 @@ steps:
 
 - script: |
     pip install pytest
-    pytest
+    py.test --junitxml results.xml tests.py
   displayName: 'Test with pytest'
